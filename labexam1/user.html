@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="styleuser.css">
+</head>
+<body>
+  <div class="register-container">
+    <h2>สมัครสมาชิกผู้ใช้งาน</h2>
+    <form action="Login.html">
+        <div class="section">
+            <h3>1. ข้อมูลส่วนตัว</h3>
+            <input type="text" placeholder="ชื่อผู้ใช้" required>
+            <input type="text" placeholder="ชื่อ-นามสกุล" required>
+            <input type="text" placeholder="เบอร์โทร" required>
+            <input type="email" placeholder="อีเมล์" required>
+            <input type="password" placeholder="รหัสผ่าน" required>
+        </div>
+        <div class="section">
+            <h3>2. ที่อยู่ปัจจุบัน</h3>
+            <input type="text" placeholder="บ้านเลขที่" required>
+            <select required>
+                <option value="">เลือกจังหวัด</option>
+                <option value="กรุงเทพมหานคร">กรุงเทพมหานคร</option>
+                <option value="กระบี่">กระบี่</option>
+                <option value="กาญจนบุรี">กาญจนบุรี</option>
+                <option value="กาฬสินธุ์">กาฬสินธุ์</option>
+                <option value="กำแพงเพชร">กำแพงเพชร</option>
+                <option value="ขอนแก่น">ขอนแก่น</option>
+                <!-- ใส่ตัวเลือกของจังหวัด -->
+            </select>
+            <select required>
+                <option value="">เลือกอำเภอ</option>
+                <option value="กรุงเทพมหานคร">กรุงเทพมหานคร</option>
+                <option value="กระบี่">กระบี่</option>
+                <option value="กาญจนบุรี">กาญจนบุรี</option>
+                <option value="กาฬสินธุ์">กาฬสินธุ์</option>
+                <option value="กำแพงเพชร">กำแพงเพชร</option>
+                <option value="ขอนแก่น">ขอนแก่น</option>
+                <!-- ใส่ตัวเลือกของอำเภอ -->
+            </select>
+            <select required>
+                <option value="">เลือกตำบล</option>
+                <option value="กรุงเทพมหานคร">กรุงเทพมหานคร</option>
+                <option value="กระบี่">กระบี่</option>
+                <option value="กาญจนบุรี">กาญจนบุรี</option>
+                <option value="กาฬสินธุ์">กาฬสินธุ์</option>
+                <option value="กำแพงเพชร">กำแพงเพชร</option>
+                <option value="ขอนแก่น">ขอนแก่น</option>
+                <!-- ใส่ตัวเลือกของตำบล -->
+            </select>
+            <input type="text" placeholder="รหัสไปรษณีย์" required>
+            <input type="text" placeholder="รายละเอียดที่อยู่" required>
+            <input type="file">
+        </div>
+        <div class="buttons">
+            <button type="submit" class="submit-btn">สมัครสมาชิก</button>
+            <button type="reset" class="cancel-btn">ยกเลิก</button>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
